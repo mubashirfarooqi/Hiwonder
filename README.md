@@ -9,7 +9,7 @@ SLAM Mapping
 3. Download Hiwonder Virtual Machine in the Appendix under the Mapping and Navigation folder
 4. Through VNC, put the robot in LAN mode by connecting the robot to your home WIFI
 5. Insert the following code in VNC LxTerminal: vim hiwonder-toolbox/wifi_conf.py
-6. insert your home WIFI username and password
+6. insert your home WIFI username and password under STA username and password
 7. After exiting, insert the following code: sudo systemct1 restart wifi.service
 8. Robot should be connected to your WIFI
 9. You will lose access to VNC
