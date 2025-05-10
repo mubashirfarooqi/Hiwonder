@@ -2,7 +2,7 @@
 Hiwonder Mentor Pi A1 Ackerman Chassis
 
 
-SLAM Mapping
+SLAM Mapping Tutorial - I wouldn't recommend Hiwonder documentation since it can be confusing
 
 1. Download Workstation Pro 17 (do not download 16)
 2. Fix Vmnetbriges.dll error by finding the file/path in the VMWare folder - critical error to fix - it's for the network bridge adapter in Workstation
@@ -22,4 +22,5 @@ SLAM Mapping
 16. Username and Password are the same
 17. Run the command in VNC to start SLAM -> ~/.stop_ros.sh -> ros2 launch slam slam.launch.py
 18. Run the command in the Virtual Machine to start Rviz -> ros2 launch slam rviz_slam.launch.py
+19. Run another command in VNC by opening another terminator (do not close the current one) -> ros2 launch peripherals teleop_key_control.launch.py
 
