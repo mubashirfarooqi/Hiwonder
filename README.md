@@ -20,7 +20,7 @@ SLAM Mapping Tutorial - I wouldn't recommend Hiwonder documentation since it can
 14. New IP address found at top right of screen
 15. Connect to VNC again with new IP address
 16. Username and Password are the same
-17. Run the command in VNC to start SLAM -> ~/.stop_ros.sh -> ros2 launch slam slam.launch.py
-18. Run the command in the Virtual Machine to start Rviz -> ros2 launch slam rviz_slam.launch.py
+17. Run the following code in VNC to start SLAM: ~/.stop_ros.sh -> ros2 launch slam slam.launch.py
+18. Run the following code in your Virtual Machine (downloaded from Hiwonder google drive folder)-> ros2 launch slam rviz_slam.launch.py
 19. Run another command in VNC by opening another terminator (do not close the current one) -> ros2 launch peripherals teleop_key_control.launch.py
 
