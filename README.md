@@ -1,8 +1,10 @@
 # Hiwonder
 Hiwonder Mentor Pi A1 Ackerman Chassis
+Hiwonder Google Drive Folder: https://drive.google.com/drive/folders/1Ox5xN5zpxXqDK-9ruDwwgcQgePXvMvHr?usp=sharing
+For SLAM mapping in Google Drive Folder -> 12. Mapping Lesson -> Lesson 4. slam_toolbox Mapping Algorithm
 
-
-SLAM Mapping Tutorial - I wouldn't recommend Hiwonder documentation since it can be confusing
+SLAM Mapping Tutorial - I wouldn't recommend Hiwonder documentation for SLAM mapping because you don't need to import files from Robot as shown in 2.2
+Start following from 2.4 (Set Robot in LAN mode) -> Starting from Step 9 in this tutorial
 
 1. Download Workstation Pro 17 (do not download 16)
 2. Fix Vmnetbriges.dll error by finding the file/path in the VMWare folder - critical error to fix - it's for the network bridge adapter in Workstation (if you don't have any errors, keep going then, but I have heard downloading Workstation 17.5 or later causes this)
